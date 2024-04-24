@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>TSS</title>
+  <link rel="stylesheet" href="assets/css/libs.min.css" />
+  <link rel="stylesheet" href="assets/webfont/webfont.css">
+  <link rel="stylesheet" href="assets/font-awsome/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.png" />
+  <link rel="icon" type="../image/png" href="assets/img/favicon.png" sizes="32x32" />
+  <link rel="icon" type="../image/png" href="assets/img/favicon.png" sizes="16x16" />
+  <meta name="theme-color" content="#FFC006" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+</html>
+
+<body id="home">
+  <div id="button_scroll"></div>
+
+  <div id="loader">
+    <div class="loader">
+      <div></div>
+    </div>
+  </div>
+
+
+  <div class="full_menu">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <ul class="social-icns">
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <div class="top-contact d-flex align-items-center">
+          <ul>
+            <li><a href="mailto:info@tssfitout.com"><svg class="mail-icn" viewBox="0 0 20 16" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1 1.9375V1C0.734784 1 0.48043 1.09877 0.292893 1.27459C0.105357 1.4504 0 1.68886 0 1.9375H1ZM19 1.9375H20C20 1.68886 19.8946 1.4504 19.7071 1.27459C19.5196 1.09877 19.2652 1 19 1V1.9375ZM1 2.875H19V1H1V2.875ZM18 1.9375V13.1875H20V1.9375H18ZM17 14.125H3V16H17V14.125ZM2 13.1875V1.9375H0V13.1875H2ZM3 14.125C2.73478 14.125 2.48043 14.0262 2.29289 13.8504C2.10536 13.6746 2 13.4361 2 13.1875H0C0 13.9334 0.316071 14.6488 0.87868 15.1762C1.44129 15.7037 2.20435 16 3 16V14.125ZM18 13.1875C18 13.4361 17.8946 13.6746 17.7071 13.8504C17.5196 14.0262 17.2652 14.125 17 14.125V16C17.7956 16 18.5587 15.7037 19.1213 15.1762C19.6839 14.6488 20 13.9334 20 13.1875H18Z"
+                    fill="white" />
+                  <path d="M1 1.9375L10 10.375L19 1.9375" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                info@tssfitout.com</a></li>
+            <li><a href="tel:+97142686440"><svg class="phn-icn" viewBox="0 0 15 15" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M14.1349 9.72104L10.7389 8.19865L10.7259 8.19288C10.5052 8.09772 10.2641 8.05941 10.0248 8.08145C9.7854 8.1035 9.55537 8.1852 9.35573 8.31909C9.32774 8.33782 9.30078 8.35805 9.27496 8.37967L7.66603 9.74989C6.72851 9.24146 5.75998 8.28087 5.25083 7.35488L6.62538 5.72072C6.64748 5.69434 6.66795 5.66664 6.68668 5.63778C6.81706 5.43885 6.89621 5.21077 6.9171 4.97384C6.93798 4.73691 6.89995 4.49849 6.8064 4.27982C6.80417 4.27563 6.80225 4.27129 6.80063 4.26684L5.27896 0.865086C5.15406 0.580602 4.94088 0.343888 4.67099 0.189978C4.40109 0.0360667 4.08881 -0.0268632 3.78037 0.0105009C2.7335 0.148023 1.77249 0.661914 1.07681 1.4562C0.381133 2.25048 -0.001631 3.27083 5.2242e-06 4.3267C5.2242e-06 10.2122 4.78784 15 10.6733 15C11.7292 15.0016 12.7495 14.6189 13.5438 13.9232C14.3381 13.2275 14.852 12.2665 14.9895 11.2196C15.0269 10.9112 14.9639 10.5989 14.81 10.329C14.6561 10.0591 14.4194 9.84594 14.1349 9.72104ZM10.6733 13.2692C8.30249 13.2663 6.02959 12.3233 4.35317 10.6468C2.67675 8.97041 1.73367 6.69751 1.73081 4.3267C1.72916 3.7292 1.932 3.14913 2.30564 2.68288C2.67928 2.21662 3.2012 1.89225 3.7847 1.76366L5.14194 4.79257L3.76018 6.43828C3.73785 6.46489 3.71713 6.49283 3.69816 6.52194C3.56197 6.73003 3.48189 6.96981 3.46572 7.21798C3.44955 7.46616 3.49782 7.7143 3.60585 7.93831C4.28519 9.32872 5.68498 10.7191 7.08982 11.3999C7.31532 11.5068 7.56472 11.5534 7.81361 11.5351C8.0625 11.5167 8.30238 11.4341 8.5098 11.2954C8.53769 11.2765 8.56442 11.2561 8.58985 11.2341L10.2074 9.85878L13.2363 11.2153C13.1078 11.7988 12.7834 12.3207 12.3171 12.6944C11.8509 13.068 11.2708 13.2708 10.6733 13.2692Z"
+                    fill="white" />
+                </svg>+971 4268 6440
+              </a></li>
+          </ul>
+          <div class="letstalk">
+            <a href="contact.html">Let’s Talk<i class="fas fa-arrow-right ml-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="top-hr">
+    <div class="container">
+      <div class="navbar navbar-expand-xl">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/img/tss.png" alt="">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="fas fa-bars fa-1x"></span></button>
+        <div class="menu_b collapse navbar-collapse" id="navbarToggleExternalContent">
+          <div class="navbar-nav">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="methodology.html">Our Methodology</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li class="active"><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="title_head jarallax" style="background-image: url('assets/img/bg.webp')">
+    <div class="container">
+      <div class="row flex-column align-items-center">
+        <h2>Blog Details</h2>
+
+      </div>
+    </div>
+  </div>
+
+  <section class="post_content blogdetail-page">
+    <div class="container">
+      <div class="row">
+   
+        <div class="posts_s col-12 col-lg-9 col-md-12">
+          <div class="post_standart"><a class="post_img tilt" data-tilt="" href="blog-single.html"><img
+                src="assets/img/blog/blog1.webp" /></a>
+            <div class="wrp_post">
+              <div class="bottom_inf">
+                <div class="left_b"><span class="date">12.12.19</span><span class="like">10</span></div>
+                <div class="right"><span class="comment">5</span><span class="author">John Doe</span></div>
+              </div>
+          
+                    <div>
+                      <h2>"Incorporating Technology in Modern Office Fitouts: Enhancing Connectivity and Efficiency"</h2>
+
+                      <p>In the digital age, incorporating technology is essential in modern office fitouts to enhance connectivity and efficiency. This blog post explores the significance of integrating technology and offers valuable insights for creating a technologically advanced workspace:</p>
+                      <p><span>1.</span>Smart Office Solutions: We discuss the benefits of implementing smart office solutions, such as automated lighting, temperature control systems, and smart sensors. These technologies optimize energy usage, create personalized work environments, and improve overall efficiency.</p>
+        
+                      <p><span>2.</span>Seamless Connectivity: We explore the importance of reliable and fast connectivity in the workplace. Topics include the integration of high-speed Wi-Fi, robust networking infrastructure, and seamless integration of devices to ensure smooth communication and collaboration.</p>
+        
+                      <p><span>3.</span>Collaborative Tools: The blog highlights the value of collaborative tools in modern office fitouts. We delve into the benefits of video conferencing systems, digital whiteboards, project management software and enhance productivity.</p>
+        
+                      <p><span>4.</span>Ergonomic Technology: We discuss the incorporation of ergonomic technology in office fitouts, such as adjustable standing desks, ergonomic chairs, and monitor arms. These solutions promote employee well-being, reduce physical strain, and increase comfort and productivity.</p>
+        
+                      <p><span>5.</span>Space Management Systems: The blog explores the utilization of technology to optimize space management in office fitouts. Topics include occupancy sensors, room booking systems, and space utilization analytics that help streamline office space, maximize efficiency, and reduce costs.</p>
+        
+                      <p><span>6.</span>Future-Proofing: We touch upon the importance of future-proofing office fitouts by considering adaptable technologies and infrastructure. This ensures that the workspace remains flexible and can accommodate evolving technological needs and advancements.</p>
+        
+                      <p>By incorporating technology into modern office fitouts, businesses can enhance connectivity, streamline processes, and improve overall efficiency. Embracing the right technological solutions empowers employees, promotes collaboration, and prepares the workspace for the demands of the digital era.</p>
+                    </div>
+                
+           
+              <div class="imgs_post row">
+                <div class="img_h rn_surface tilt col-md-6" data-tilt=""><img src="assets/img/blog/img1.webp" class="w-100"/></div>
+                <div class="img_h rn_surface tilt col-md-6" data-tilt=""><img src="assets/img/blog/img2.webp" class="w-100"/></div>
+              </div>
+              <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+           
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            
+              <div class="bottom_info">
+                <div class="tags"><span>News</span><span>Interior</span><span>Home</span><span>Fitout</span></div>
+                <div class="social"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-youtube"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="post-comments">
+            <div class="row">
+              <div class="comments col-12 col-lg-12">
+                <h2>Comments<span>(02)</span></h2>
+                <div class="comment">
+                  <div class="avatar"><img src="assets/img/face1.webp"/></div>
+                  <div class="info_comm">
+                    <h3>James Thomes</h3><span>June 25, 2019</span>
+                    <p>The most shared article of the year is found on Simplemost.com. The news here is the new construction-themed amusement park found in Diggerland, a theme park based.</p>
+                  </div>
+                </div>
+                <div class="comment">
+                  <div class="avatar"><img src="assets/img/face3.webp"/></div>
+                  <div class="info_comm">
+                    <h3>Maria Doe</h3><span>June 25, 2019</span>
+                    <p>The most shared article of the year is found on Simplemost.com. The news here is the new construction-themed amusement park found in Diggerland, a theme park based.</p>
+                  </div>
+                </div>
+                <div class="comment">
+                  <div class="avatar"><img src="assets/img/face4.webp"/></div>
+                  <div class="info_comm">
+                    <h3>Emma Jackson</h3><span>June 25, 2019</span>
+                    <p>The most shared article of the year is found on Simplemost.com. The news here is the new construction-themed amusement park found in Diggerland, a theme park based.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="form_comment col-12 col-lg-12">
+                <h2>Write your comment</h2>
+               
+                <form>
+                  <div class="rpl_b">
+                    <input placeholder="Name">
+                    <input placeholder="Email">
+                  </div>
+                  <div class="rpl_b">
+                    <input placeholder="Phone">
+                    <input placeholder="Subject">
+                  </div>
+                  <textarea placeholder="Enter your Message"></textarea>
+            <a class="button_small" href="#">Submit</a>
+                </form>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <div class="sidebar col-12 col-lg-3">
+  
+          <div class="input_widget">
+            <input placeholder="Search" />
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="latest_posts_widget widget">
+            <div class="title_widget">Latest Posts</div>
+            <a href="#">
+              <div class="lts_post">
+                <div class="min_img_w"><img src="assets/img/blog/img01.webp" /></div>
+                <div class="info_m_post">
+                  <h4>Create a House of Your Dream: Few Tips</h4><span>June 25, 2019</span>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="lts_post">
+                <div class="min_img_w"><img src="assets/img/blog/img02.webp" /></div>
+                <div class="info_m_post">
+                  <h4>Create a House of Your Dream: Few Tips</h4><span>June 25, 2019</span>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="lts_post">
+                <div class="min_img_w"><img src="assets/img/blog/img03.webp" /></div>
+                <div class="info_m_post">
+                  <h4>Create a House of Your Dream: Few Tips</h4><span>June 25, 2019</span>
+                </div>
+              </div>
+            </a>
+  
+    
+ 
+          </div>
+          <div class="category_widget widget">
+            <div class="title_widget">Category</div>
+            <li><a>Architecture<i>1</i></a></li>
+            <li><a>Decorating<i>5</i></a></li>
+            <li><a>Energy And Efficiency<i>10</i></a></li>
+            <li><a>Gardening<i>3</i></a></li>
+            <li><a>Interior<i>2</i></a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer_b">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="footer-firstdiv">
+              <div class="footer-logo">
+                <a href="index.html">
+                  <img src="assets/img/tss.png" alt="">
+                </a>
+              </div>
+              <div class="footer-icns">
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+              <div class="footer-contact">
+                <div class="d-flex align-items-center email-call">
+                  <svg width="16" height="13" class="e-icn" viewBox="0 0 16 13" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.5">
+                      <path
+                        d="M0 2.88889C0 1.2934 1.43269 0 3.2 0H12.8C14.5673 0 16 1.2934 16 2.88889V10.1111C16 11.7066 14.5673 13 12.8 13H3.2C1.43269 13 0 11.7066 0 10.1111V2.88889Z"
+                        fill="#D9D9D9" />
+                      <mask id="mask0_78_114" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16"
+                        height="13">
+                        <path
+                          d="M0 2.88889C0 1.2934 1.43269 0 3.2 0H12.8C14.5673 0 16 1.2934 16 2.88889V10.1111C16 11.7066 14.5673 13 12.8 13H3.2C1.43269 13 0 11.7066 0 10.1111V2.88889Z"
+                          fill="#F57979" />
+                      </mask>
+                      <g mask="url(#mask0_78_114)">
+                        <path d="M0 0L6.22414 6.18092C7.17637 7.12653 8.8236 7.12653 9.77584 6.18092L16 0"
+                          stroke="black" stroke-width="2" />
+                      </g>
+                    </g>
+                  </svg>
+  
+                  <a href="mailto:info@tssfitout.com">Email</a>
+                  <a href="mailto:info@tssfitout.com" class="support">info@tssfitout.com</a>
+                </div>
+                <div class="d-flex email-call">
+                  <svg width="16" height="18" class="p-icn" viewBox="0 0 13 18" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_78_120)">
+                      <g opacity="0.5">
+                        <path
+                          d="M7 0H6C5.44772 0 5 0.447715 5 1V2C5 2.55228 5.44772 3 6 3H7C7.55228 3 8 2.55228 8 2V1C8 0.447715 7.55228 0 7 0Z"
+                          fill="#B3B3B3" />
+                        <path
+                          d="M2 0H1C0.447715 0 0 0.447715 0 1V2C0 2.55228 0.447715 3 1 3H2C2.55228 3 3 2.55228 3 2V1C3 0.447715 2.55228 0 2 0Z"
+                          fill="#B3B3B3" />
+                        <path
+                          d="M12 0H11C10.4477 0 10 0.447715 10 1V2C10 2.55228 10.4477 3 11 3H12C12.5523 3 13 2.55228 13 2V1C13 0.447715 12.5523 0 12 0Z"
+                          fill="#B3B3B3" />
+                        <path
+                          d="M7 5H6C5.44772 5 5 5.44772 5 6V7C5 7.55228 5.44772 8 6 8H7C7.55228 8 8 7.55228 8 7V6C8 5.44772 7.55228 5 7 5Z"
+                          fill="#B3B3B3" />
+                        <path
+                          d="M2 5H1C0.447715 5 0 5.44772 0 6V7C0 7.55228 0.447715 8 1 8H2C2.55228 8 3 7.55228 3 7V6C3 5.44772 2.55228 5 2 5Z"
+                          fill="#B3B3B3" />
+                        <path
+                          d="M12 5H11C10.4477 5 10 5.44772 10 6V7C10 7.55228 10.4477 8 11 8H12C12.5523 8 13 7.55228 13 7V6C13 5.44772 12.5523 5 12 5Z"
+                          fill="#B3B3B3" />
+                        <path
+                          d="M7 10H6C5.44772 10 5 10.4477 5 11V12C5 12.5523 5.44772 13 6 13H7C7.55228 13 8 12.5523 8 12V11C8 10.4477 7.55228 10 7 10Z"
+                          fill="#B3B3B3" />
+                        <path
+                          d="M2 10H1C0.447715 10 0 10.4477 0 11V12C0 12.5523 0.447715 13 1 13H2C2.55228 13 3 12.5523 3 12V11C3 10.4477 2.55228 10 2 10Z"
+                          fill="#B3B3B3" />
+                        <path
+                          d="M12 10H11C10.4477 10 10 10.4477 10 11V12C10 12.5523 10.4477 13 11 13H12C12.5523 13 13 12.5523 13 12V11C13 10.4477 12.5523 10 12 10Z"
+                          fill="#B3B3B3" />
+                        <path
+                          d="M7 15H6C5.44772 15 5 15.4477 5 16V17C5 17.5523 5.44772 18 6 18H7C7.55228 18 8 17.5523 8 17V16C8 15.4477 7.55228 15 7 15Z"
+                          fill="#B3B3B3" />
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_78_120">
+                        <rect width="13" height="18" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+  
+                  <a href="tel:+97142686440">Phone</a>
+                  <a href="tel:+97142686440" class="support">+971 4268 6440 <br> (800 TSS FI)</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-comp col-lg-2">
+            <h4>Group of Companies</h4>
+            <a href="#">TSS Advertising</a>
+            <a href="#">TSS Fitout & Interiors</a>
+            <a href="#">Teckfore Interiors</a>
+            <a href="#">Teckwood Crafts Pvt Ltd</a>
+          </div>
+          <div class="col-lg-2">
+            <div class="footer-scnddiv">
+              <div class="addrs-div">
+                <h4>Address</h4>
+                <p>TSS Fitout and Interiors LLC <br>
+                  Bin Khedia Building36, <br>
+                  Sheikh Rashid Road, <br>
+                  2nd Floor -202, Block-A,<br>
+                   Al Garhoud, Dubai</p>
+              </div>
+              <div class="career-div">
+                <h4>Career</h4>
+                <p>TSS Fitout & Interiors is a reputable venture</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="footer-thirddiv">
+              <h4>Sign up for the newsletter</h4>
+              <div class="input_widget_min">
+                <input placeholder="Email address" />
+                <button>Send</button>
+              </div>
+              <label>
+                <input type="checkbox" class="option-input checkbox" />
+                TSS Fitout and Interiors has been at the pinnacle of excellence since
+2004 and has been defining and raising the standard of luxury interiors in the Middle
+East for over 19 years. We are in collaboration with renowned architects and work
+directly with the owners to turn dreams into action. Our collective capabilities enable
+mastery at every facet of projects we undertake.
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+    <div class="footer_buttom col-12">
+      <div class="container rev_flex">
+        <div class="terms-privacy">
+          <ul>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Site map</a></li>
+          </ul>
+        </div>
+        <p>© 2023 <a href="#">Teakwood</a> all rights reserved</p>
+      </div>
+  
+    </div>
+  </footer>
+  <script src="assets/js/libs.min.js"></script>
+  <script src="assets/js/owl.js"></script>
+  <script src="assets/js/index.min.js"></script>
+
+</body>
